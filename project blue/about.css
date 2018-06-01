@@ -1,0 +1,9 @@
+body {background-image: url("laptopandbook.jpeg");
+                            background-size: cover;
+                             background-attachment:fixed;}
+
+.list li{list-style-type: none;}
+
+ /*must be included in all html documents*/
+footer a:link{text-decoration:none;
+              color:white;}		

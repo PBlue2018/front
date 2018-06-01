@@ -1,0 +1,6 @@
+body {background-image: url("bookpile.jpeg");
+background-size: cover;
+background-attachment:fixed;}
+
+footer a:link{text-decoration:none;
+              color:white;}	

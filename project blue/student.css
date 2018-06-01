@@ -1,0 +1,8 @@
+body {background-image:url("insidelib.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
+height:100%}
+
+.loginform {background-color: rgb(202, 206, 212);
+padding: 10px;
+border-radius: 5px;}

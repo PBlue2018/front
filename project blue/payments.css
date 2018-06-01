@@ -1,0 +1,8 @@
+body {background-image: url("pay.jpeg");
+background-size: cover;
+background-attachment:fixed;}
+
+					  /*must be included in all html documents with footer*/
+footer a:link{text-decoration:none;
+              color:white;}	
+			  			  

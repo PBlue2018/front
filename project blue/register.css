@@ -1,0 +1,7 @@
+body {background-image: url("fillform.jpeg");
+                            background-size: cover;
+                             background-attachment:fixed;}
+	
+ /*must be included in all html documents*/
+footer a:link{text-decoration:none;
+              color:white;}								 

@@ -1,0 +1,17 @@
+
+
+body {background-image: url("education.jpeg");
+background-size: cover;
+background-attachment:fixed;}
+
+.maincontent a {color: black;
+text-decoration: none;
+padding-bottom: 25px}
+
+.maincontent a:hover{color: rgb(206, 207, 189);
+                      padding-top:2.5rem;
+					  padding-bottom:2.5rem;}
+					  /*must be included in all html documents with footer*/
+footer a:link{text-decoration:none;
+              color:white;}	
+			  			  
