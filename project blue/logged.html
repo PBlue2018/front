@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="logged.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <title></title>
+  </head>
+  <body onload="loadFinish()" class="container-fluid">
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+          </li>
+          <li><a href="home.html" class="mx-auto">Log Out<img src="exit.png" alt="exit" style="height:20px" "width:20px" class="icon"></a>
+          </li>
+        </ul>
+        <div class="tab-content bg-secondary" id="myTabContent">
+          <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+             <form action="" method="post" class="p-2">
+            <h4>Assignments</h4>
+              <p class="text-white">Submit Assignmets</p>
+              <div class="row mx-auto">
+              <div class="custom-file col-sm-2">
+                  <input type="file" class="custom-file-input" id="customFile">
+                  <label class="custom-file-label" for="customFile">Subject</label>
+                </div>
+                <div class="input-group col-sm-2">
+                  <select class="custom-select" id="inputGroupSelect01">
+                    <option selected>Choose Class</option>
+                    <option value="1">Class 1</option>
+                    <option value="2">Class 2</option>
+                    <option value="3">Class 3</option>
+                    <option value="4">Class 5</option>
+                  </select>
+                </div>
+                <div class="input-group col-sm-2">
+                  <select class="custom-select" id="inputGroupSelect01">
+                    <option selected>Choose Teacher</option>
+                    <option value="1">Andy</option>
+                    <option value="2">Ignatious</option>
+                    <option value="3">Tinashe</option>
+                    <option value="4">Gates</option>
+                    <option value="5">Bil</option>
+                    <option value="6">Jack</option>
+                  </select>
+                </div>
+                <button type="submit" class="btn btn-info">Send</button>
+                
+              </div>
+               </form>
+               <div class="row p-2">
+                <h4 class="ml-2">Reports</h4> 
+                <div class="col-sm-12">
+               <button type="button" class="btn btn-info btn-sm">Check For Reports</button>
+                </div>
+                <h4 class="ml-2 mt-2">Calender Of Events:</h4> 
+               <ul class="calender col-sm-12">
+                 <li><a href="">Upcoming</a></li>
+                 <li><a href="">Exams</a></li>
+               </ul>
+               
+               </div>
+               
+          </div>
+          <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+            <h4>Student profile</h4>
+            <ul class="profile">
+              <li>Name:</li>
+              <li>Surnames:</li>
+              <li>Age:</li>
+              <li>Contact Number:</li>
+              <li>Contact Email:</li>
+              <li>Physical Address:</li>
+              <li>Parent/Guardian Name:</li>
+              <li>Parent/Guardian Contact Numbers:</li>
+            </ul>
+          </div>
+        </div>
+        
+  
+
+    <!-- Optional JavaScript -->
+   <script src="logged.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  </body>
+</html>
